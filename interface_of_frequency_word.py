@@ -5,7 +5,7 @@ Created on Tue May 31 10:50:26 2022
 
 @author: honepa
 """
-from frequency_word_without_interface import recognition_text, counting_frequency_of_word_in_text
+from frequency_word import recognition_text, counting_frequency_of_word_in_text
 from tkinter import Tk, messagebox, ttk, StringVar, Entry, Button
 #функция вывода ответа и запуска скрипта обработки аудио
 def show_answer():
