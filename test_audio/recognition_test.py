@@ -10,7 +10,7 @@ import speech_recognition as speech_r
 #import matplotlib.pyplot as plt
 #import librosa.display
 
-sample = speech_r.WavFile("test_audio.wav")
+sample = speech_r.WavFile("audio.wav")
 
 r = speech_r.Recognizer()
 
