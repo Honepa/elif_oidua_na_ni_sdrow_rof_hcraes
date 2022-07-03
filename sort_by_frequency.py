@@ -9,13 +9,13 @@ Created on Sun Jun 26 14:27:21 2022
 import os
 from frequency_word import recognition_text, counting_frequency_of_word_in_text
 import shutil
-import sys
+#import sys
 #получение пути до директории с аудиофайлами для распознавания
-path = sys.argv[1]
+path = input("Директория с ауддофайлами:")
 #получение имени директории
-new_dir_name = sys.argv[2]
+new_dir_name = input("Название новой директории: ")
 #получение слова для подсчёта частоты
-word = sys.argv[3]
+word = input("Слово для подсчёта частоты: ")
 #создание новой директории
 try:
     os.mkdir(path + new_dir_name)
